@@ -45,12 +45,17 @@ SELECT c.customer_id, c.last_name, o.order_id, os.name, s.name
 #the better understanding of the database structure. We want to show following
 #information: payment id, payment date, payment, invoice id, invoice total payment,
 #client name, payment method. We want to see the records for all payments.
+
+
+
 #7. Look at the sql_store ERD. Identify tables where data inconsistency can appear. Try to
 #insert some inconsistent data. Fix the ERD and synchronize the database with the
 #changed ERD. You might have to delete the inconsistent records first before you can
 #synchronize. Now confirm that you cannot anymore put the inconsistent data (for
 #example non-existing IDs from a related table).
 #3
+
+
 #8. After completing task 7, try to query all the orders that contain an item that has a note. Show following data: order_id, product_id, quantity, unit_price, total price, order status, product name, note text.
 #9. On Fronter in the source_code/mysql/for lecture 5/mysql_hr there is a sql file for generating a sample mysql_hr database. The file is not generating the foreign keys properly. After you create the database open the ERD file where the relations are fixed. Then you need to synchronize this ERD with the database. There are exercises for this database here: https://www.w3resource.com/mysql-exercises/
 #10. On Fronter in the source_code/mysql/for lecture 5/northwind there is a sql file for generating a sample northwind database. There is another file containing the ERD of that database. You can either execute the sql file or you can open the ERD file in the MySQL Workbench and forward engineer the database from the ERD. Look at the diagram and try query some data out of it. You can use it for your training as it provides a good level of complexity.
